@@ -4,20 +4,20 @@ Git und Github mit allen Studenten Testen
 # Auftrag
 Lade das Repo bei dir in ein Lokales Verzeichniss (Zb. C:/Temp)
  
-## Clone das Repository:
+### 1. Clone das Repository:
   ```bash
    git clone https://github.com/rasemaier/HfAmBztIstNice.git
    ```
 
-## In den Ordner HfAmBztIstNice wechseln
+### 2. In den Ordner HfAmBztIstNice wechseln
 
-## Neuen Ordner erstellen (Vorname_Nachname)
+### 3. Neuen Ordner erstellen (Vorname_Nachname)
 
-## README.md erstellen
+### 4. README.md erstellen
 
-## die Datei öffnen und einen Text erfassen
+### 5. die Datei öffnen und einen Text erfassen
 
-## die Files auf GitHub speichern
+### 6. die Files auf GitHub speichern
 
   ```bash
    git add .
