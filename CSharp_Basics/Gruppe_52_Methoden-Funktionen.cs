@@ -31,15 +31,15 @@ namespace MethodenPraesentation
             Rechner r = new Rechner();
 
             // Aufruf 1: Methode mit Rückgabewert
-            int summe = r.Addiere(5, 7);
-            Console.WriteLine($"5 + 7 = {summe}");
+            int summe = r.Addiere(10, 25);
+            Console.WriteLine($"10 + 25 = {summe}");
 
             // Aufruf 2: void-Methode
-            r.Begruesse("Talip");
+            r.Begruesse("zusammen");
 
             // Aufruf 3: statische Methode
-            int q = Rechner.Quadrat(4);
-            Console.WriteLine($"4² = {q}");
+            int q = Rechner.Quadrat(11);
+            Console.WriteLine($"11² = {q}");
 
             Console.WriteLine("Drücke eine Taste zum Beenden...");
             Console.ReadKey();
