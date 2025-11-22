@@ -4,21 +4,32 @@ class Program
 {
     static void Main()
     {
-        // Frage: Wie oft soll die Schleife laufen?
-        Console.Write("Wie oft soll ich dich etwas fragen? ");
-        int anzahl = int.Parse(Console.ReadLine());
+            // Frage: Wie viele Schüler sind in der Klasse?
+            Console.Write("Wie viele Schüler sind in deiner Klasse? ");
+            int anzahl = int.Parse(Console.ReadLine());
 
-        // for-Schleife, die dich mehrmals etwas fragt
-        for (int i = 1; i <= anzahl; i++)
-        {
-            Console.Write("Frage " + i + ": Wie heißt du? ");
-            string name = Console.ReadLine();
+            // Array für die Namen der Schüler
+            string[] namen = new string[anzahl];
 
-            Console.WriteLine("Antwort " + i + ": Hallo " + name + "!");
-            Console.WriteLine(); // leere Zeile für Übersicht
-        }
+            // for-Schleife, die die Namen abfragt
+            for (int i = 0; i < anzahl; i++)
+            {
+                Console.Write($"Schüler {i + 1}: Wie heißt du? ");
+                namen[i] = Console.ReadLine();
+            }
 
-        Console.WriteLine("Fertig! Drücke Enter zum Beenden.");
-        Console.ReadLine();
+            // Namen alphabetisch sortieren
+            Array.Sort(namen);
+
+            Console.WriteLine();
+            Console.WriteLine("Alle Namen alphabetisch sortiert:");
+            foreach (string name in namen)
+            {
+                Console.WriteLine(name);
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Fertig! Drücke Enter zum Beenden.");
+            Console.ReadLine();
     }
 }
