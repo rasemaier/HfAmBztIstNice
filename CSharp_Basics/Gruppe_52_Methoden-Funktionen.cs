@@ -31,9 +31,26 @@ public class Rechner  // Definition der Klasse "Rechner"
         Console.WriteLine($"Hallo {name}!");  // Gibt eine Begrüßung in der Konsole aus
     }
 
+<<<<<<< HEAD
     // 3. Statische Methode (ohne Objekt aufrufbar)
     public static int Quadrat(int x)  // Methode "Quadrat" ist statisch, braucht kein Objekt
     {
         return x * x;  // Gibt das Quadrat von x zurück
+=======
+            // Aufruf 1: Methode mit Rückgabewert
+            int summe = r.Addiere(10, 25);
+            Console.WriteLine($"10 + 25 = {summe}");
+
+            // Aufruf 2: void-Methode
+            r.Begruesse("zusammen");
+
+            // Aufruf 3: statische Methode
+            int q = Rechner.Quadrat(11);
+            Console.WriteLine($"11² = {q}");
+
+            Console.WriteLine("Drücke eine Taste zum Beenden...");
+            Console.ReadKey();
+        }
+>>>>>>> d222704a84957f34d137528488e1bea18d412649
     }
 }
