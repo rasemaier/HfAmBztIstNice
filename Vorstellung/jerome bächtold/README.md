@@ -1,1 +1,0 @@
-Ich bin Tim, 29 und der Lehrer.
