@@ -1,0 +1,5 @@
+c:\Temp\HfAmBztIstNice\CSharp_Basics\obj\Debug\net10.0\CSharp_Basics.GeneratedMSBuildEditorConfig.editorconfig
+c:\Temp\HfAmBztIstNice\CSharp_Basics\obj\Debug\net10.0\CSharp_Basics.AssemblyInfoInputs.cache
+c:\Temp\HfAmBztIstNice\CSharp_Basics\obj\Debug\net10.0\CSharp_Basics.AssemblyInfo.cs
+c:\Temp\HfAmBztIstNice\CSharp_Basics\obj\Debug\net10.0\CSharp_Basics.csproj.CoreCompileInputs.cache
+c:\Temp\HfAmBztIstNice\CSharp_Basics\obj\Debug\net10.0\CSharp_Basics.sourcelink.json
